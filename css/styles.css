@@ -1,20 +1,16 @@
 body, html { 
 	padding: 0; 
 	margin: 0; 
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
 }  
 
 @media all and (min-width: 960px) { 
-
-	/*#mobile { 
-		display: none;
-	}*/  
-
+ 
 	nav { 
 		width: 100%; 
 		background-color: #eee; 
 		height: 70px; 
-		border-top: 5px solid #66ff66; 
+		border-top: 5px solid #000; 
 		
 	}  
 
@@ -82,13 +78,13 @@ body, html {
 	} 
 
 	#login-button { 
-		background-color: #00b300; 
+		background-color: #000; 
 		color: #fff; 
 	} 
 
 	#login-button:hover{ 
 		cursor: pointer; 
-		background-color: #66ff66;
+		background-color: #000;
 	} 
 
 	#log-bttm { 
@@ -96,7 +92,7 @@ body, html {
 	} 
 
 	#sign-up{ 
-		background-color: #00b300; 
+		background-color: #000; 
 		color: #fff; 
 		text-decoration: none; 
 		border-radius: 5px; 
@@ -104,7 +100,55 @@ body, html {
 	} 
 
 	#sign-up:hover{ 
-		background-color: #66ff66;
+		background-color: #000;
+	} 
+
+	#signup-background { 
+	background-color: green;
+	} 
+
+	#box { 
+	text-align: center;  
+	width: 480px; 
+	background-color: #fff; 
+	padding: 10px; 
+	border-radius: 10px; 
+	margin: 0 auto; 
+	margin-top: 6%; 
+	background-color: #eee;
+
+	} 
+
+	#create-account { 
+		width: 400px; 
+		margin: 0 auto; 
+	}  
+
+	#create-account h1 { 
+		float: center; 
+		color: #000;  
+	}
+
+	#create-account input { 
+		width: 400px; 
+		height: 35px; 
+		padding: 5px; 
+		border-radius: 5px; 
+		border: none; 
+		margin-top: 10px;  
+		font-size: 15px;
+	} 
+
+	#submit-bttn { 
+		background-color: #000; 
+		color: #fff;   
+		margin-left: 5px; 
+	} 
+
+	#submit-bttn:hover{ 
+		background-color: #000; 
+		cursor: pointer;
+
 	}
 } 
 
